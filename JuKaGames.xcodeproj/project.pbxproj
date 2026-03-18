@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC11D2C32F432D5D00A0493E /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = DC11D2C22F432D5D00A0493E /* Nuke */; };
+		DC11D2C52F432D5D00A0493E /* NukeExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = DC11D2C42F432D5D00A0493E /* NukeExtensions */; };
+		DC11D2C72F432D5D00A0493E /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = DC11D2C62F432D5D00A0493E /* NukeUI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCF2B3DA2F29F72E00EAE5B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCF2B3C12F29F72C00EAE5B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCF2B3C82F29F72C00EAE5B0;
+			remoteInfo = JuKaGames;
+		};
+		DCF2B3E42F29F72E00EAE5B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCF2B3C12F29F72C00EAE5B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCF2B3C82F29F72C00EAE5B0;
+			remoteInfo = JuKaGames;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCF2B3C92F29F72C00EAE5B0 /* JuKaGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuKaGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF2B3D92F29F72E00EAE5B0 /* JuKaGamesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JuKaGamesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF2B3E32F29F72E00EAE5B0 /* JuKaGamesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JuKaGamesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DC11D2502F3C741B00A0493E /* Exceptions for "JuKaGames" folder in "JuKaGames" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DCF2B3C82F29F72C00EAE5B0 /* JuKaGames */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DC11D2B52F3C791000A0493E /* Fonts */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DCF2B3CB2F29F72C00EAE5B0 /* JuKaGames */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DC11D2502F3C741B00A0493E /* Exceptions for "JuKaGames" folder in "JuKaGames" target */,
+			);
+			path = JuKaGames;
+			sourceTree = "<group>";
+		};
+		DCF2B3DC2F29F72E00EAE5B0 /* JuKaGamesTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JuKaGamesTests;
+			sourceTree = "<group>";
+		};
+		DCF2B3E62F29F72E00EAE5B0 /* JuKaGamesUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JuKaGamesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCF2B3C62F29F72C00EAE5B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC11D2C72F432D5D00A0493E /* NukeUI in Frameworks */,
+				DC11D2C32F432D5D00A0493E /* Nuke in Frameworks */,
+				DC11D2C52F432D5D00A0493E /* NukeExtensions in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF2B3D62F29F72E00EAE5B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF2B3E02F29F72E00EAE5B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCF2B3C02F29F72C00EAE5B0 = {
+			isa = PBXGroup;
+			children = (
+				DCF2B3CB2F29F72C00EAE5B0 /* JuKaGames */,
+				DCF2B3DC2F29F72E00EAE5B0 /* JuKaGamesTests */,
+				DCF2B3E62F29F72E00EAE5B0 /* JuKaGamesUITests */,
+				DCF2B3CA2F29F72C00EAE5B0 /* Products */,
+				DC11D2B52F3C791000A0493E /* Fonts */,
+			);
+			sourceTree = "<group>";
+		};
+		DCF2B3CA2F29F72C00EAE5B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCF2B3C92F29F72C00EAE5B0 /* JuKaGames.app */,
+				DCF2B3D92F29F72E00EAE5B0 /* JuKaGamesTests.xctest */,
+				DCF2B3E32F29F72E00EAE5B0 /* JuKaGamesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCF2B3C82F29F72C00EAE5B0 /* JuKaGames */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCF2B3ED2F29F72E00EAE5B0 /* Build configuration list for PBXNativeTarget "JuKaGames" */;
+			buildPhases = (
+				DCF2B3C52F29F72C00EAE5B0 /* Sources */,
+				DCF2B3C62F29F72C00EAE5B0 /* Frameworks */,
+				DCF2B3C72F29F72C00EAE5B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DC11D2B52F3C791000A0493E /* Fonts */,
+				DCF2B3CB2F29F72C00EAE5B0 /* JuKaGames */,
+			);
+			name = JuKaGames;
+			packageProductDependencies = (
+				DC11D2C22F432D5D00A0493E /* Nuke */,
+				DC11D2C42F432D5D00A0493E /* NukeExtensions */,
+				DC11D2C62F432D5D00A0493E /* NukeUI */,
+			);
+			productName = JuKaGames;
+			productReference = DCF2B3C92F29F72C00EAE5B0 /* JuKaGames.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCF2B3D82F29F72E00EAE5B0 /* JuKaGamesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCF2B3F02F29F72E00EAE5B0 /* Build configuration list for PBXNativeTarget "JuKaGamesTests" */;
+			buildPhases = (
+				DCF2B3D52F29F72E00EAE5B0 /* Sources */,
+				DCF2B3D62F29F72E00EAE5B0 /* Frameworks */,
+				DCF2B3D72F29F72E00EAE5B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCF2B3DB2F29F72E00EAE5B0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DCF2B3DC2F29F72E00EAE5B0 /* JuKaGamesTests */,
+			);
+			name = JuKaGamesTests;
+			packageProductDependencies = (
+			);
+			productName = JuKaGamesTests;
+			productReference = DCF2B3D92F29F72E00EAE5B0 /* JuKaGamesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCF2B3E22F29F72E00EAE5B0 /* JuKaGamesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCF2B3F32F29F72E00EAE5B0 /* Build configuration list for PBXNativeTarget "JuKaGamesUITests" */;
+			buildPhases = (
+				DCF2B3DF2F29F72E00EAE5B0 /* Sources */,
+				DCF2B3E02F29F72E00EAE5B0 /* Frameworks */,
+				DCF2B3E12F29F72E00EAE5B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCF2B3E52F29F72E00EAE5B0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DCF2B3E62F29F72E00EAE5B0 /* JuKaGamesUITests */,
+			);
+			name = JuKaGamesUITests;
+			packageProductDependencies = (
+			);
+			productName = JuKaGamesUITests;
+			productReference = DCF2B3E32F29F72E00EAE5B0 /* JuKaGamesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCF2B3C12F29F72C00EAE5B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					DCF2B3C82F29F72C00EAE5B0 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					DCF2B3D82F29F72E00EAE5B0 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DCF2B3C82F29F72C00EAE5B0;
+					};
+					DCF2B3E22F29F72E00EAE5B0 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DCF2B3C82F29F72C00EAE5B0;
+					};
+				};
+			};
+			buildConfigurationList = DCF2B3C42F29F72C00EAE5B0 /* Build configuration list for PBXProject "JuKaGames" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCF2B3C02F29F72C00EAE5B0;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				DC11D2C12F432D5D00A0493E /* XCRemoteSwiftPackageReference "Nuke" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DCF2B3CA2F29F72C00EAE5B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCF2B3C82F29F72C00EAE5B0 /* JuKaGames */,
+				DCF2B3D82F29F72E00EAE5B0 /* JuKaGamesTests */,
+				DCF2B3E22F29F72E00EAE5B0 /* JuKaGamesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCF2B3C72F29F72C00EAE5B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF2B3D72F29F72E00EAE5B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF2B3E12F29F72E00EAE5B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCF2B3C52F29F72C00EAE5B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF2B3D52F29F72E00EAE5B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF2B3DF2F29F72E00EAE5B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCF2B3DB2F29F72E00EAE5B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCF2B3C82F29F72C00EAE5B0 /* JuKaGames */;
+			targetProxy = DCF2B3DA2F29F72E00EAE5B0 /* PBXContainerItemProxy */;
+		};
+		DCF2B3E52F29F72E00EAE5B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCF2B3C82F29F72C00EAE5B0 /* JuKaGames */;
+			targetProxy = DCF2B3E42F29F72E00EAE5B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DCF2B3EB2F29F72E00EAE5B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCF2B3EC2F29F72E00EAE5B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCF2B3EE2F29F72E00EAE5B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JuKaGames/Preview Content\"";
+				DEVELOPMENT_TEAM = 5GL6N8T6R2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JuKaGames/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = katk.JuKaGames;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCF2B3EF2F29F72E00EAE5B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JuKaGames/Preview Content\"";
+				DEVELOPMENT_TEAM = 5GL6N8T6R2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JuKaGames/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = katk.JuKaGames;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCF2B3F12F29F72E00EAE5B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5GL6N8T6R2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = katk.JuKaGamesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JuKaGames.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JuKaGames";
+			};
+			name = Debug;
+		};
+		DCF2B3F22F29F72E00EAE5B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5GL6N8T6R2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = katk.JuKaGamesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JuKaGames.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JuKaGames";
+			};
+			name = Release;
+		};
+		DCF2B3F42F29F72E00EAE5B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5GL6N8T6R2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = katk.JuKaGamesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JuKaGames;
+			};
+			name = Debug;
+		};
+		DCF2B3F52F29F72E00EAE5B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5GL6N8T6R2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = katk.JuKaGamesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JuKaGames;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCF2B3C42F29F72C00EAE5B0 /* Build configuration list for PBXProject "JuKaGames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF2B3EB2F29F72E00EAE5B0 /* Debug */,
+				DCF2B3EC2F29F72E00EAE5B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCF2B3ED2F29F72E00EAE5B0 /* Build configuration list for PBXNativeTarget "JuKaGames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF2B3EE2F29F72E00EAE5B0 /* Debug */,
+				DCF2B3EF2F29F72E00EAE5B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCF2B3F02F29F72E00EAE5B0 /* Build configuration list for PBXNativeTarget "JuKaGamesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF2B3F12F29F72E00EAE5B0 /* Debug */,
+				DCF2B3F22F29F72E00EAE5B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCF2B3F32F29F72E00EAE5B0 /* Build configuration list for PBXNativeTarget "JuKaGamesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF2B3F42F29F72E00EAE5B0 /* Debug */,
+				DCF2B3F52F29F72E00EAE5B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DC11D2C12F432D5D00A0493E /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DC11D2C22F432D5D00A0493E /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC11D2C12F432D5D00A0493E /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+		DC11D2C42F432D5D00A0493E /* NukeExtensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC11D2C12F432D5D00A0493E /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeExtensions;
+		};
+		DC11D2C62F432D5D00A0493E /* NukeUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC11D2C12F432D5D00A0493E /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DCF2B3C12F29F72C00EAE5B0 /* Project object */;
+}
