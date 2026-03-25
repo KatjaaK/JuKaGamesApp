@@ -9,6 +9,6 @@ import Foundation
 
 protocol GamesLocalDatasource {
     func fetchGames() throws -> [Game]?
-    func saveGames(games: [Game]) throws
-    func clearGames() throws
+    func saveGames(games: [Game])
+    func clearGames()
 }

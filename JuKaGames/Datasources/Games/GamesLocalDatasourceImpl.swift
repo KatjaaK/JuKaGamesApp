@@ -43,27 +43,40 @@ class GamesLocalDatasourceImpl: GamesLocalDatasource {
             return nil
         }
     }
+
     
-    func saveGames(games: [Game]) throws {
-        for game in games {
-            _ = GameEntity.from(game: game, context: CoreDataStack.shared.context)
-        }
-        if CoreDataStack.shared.context.hasChanges {
-            try CoreDataStack.shared.context.save()
+    func saveGames(games: [Game]) {
+        let container = CoreDataStack.shared.container
+
+        container.performBackgroundTask { context in
+            do {
+                for game in games {
+                    _ = GameEntity.from(game: game, context: context)
+                }
+                if context.hasChanges {
+                    try context.save()
+                }
+            } catch {
+                print(error)
+            }
         }
     }
     
-    func clearGames() throws {
+    func clearGames() {
         let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "GameEntity")
         let deleteRequest = NSBatchDeleteRequest(fetchRequest: fetchRequest)
         deleteRequest.resultType = .resultTypeObjectIDs
-            
-        let result = try CoreDataStack.shared.context.execute(deleteRequest) as? NSBatchDeleteResult
-            
-        if let objectIDs = result?.result as? [NSManagedObjectID], !objectIDs.isEmpty {
-            let changes = [NSDeletedObjectsKey: objectIDs]
-            NSManagedObjectContext.mergeChanges(fromRemoteContextSave: changes, into: [CoreDataStack.shared.context])
+    
+        CoreDataStack.shared.container.performBackgroundTask { context in
+            let fetchRequest: NSFetchRequest<NSFetchRequestResult> = GameEntity.fetchRequest()
+            let deleteRequest = NSBatchDeleteRequest(fetchRequest: fetchRequest)
+            do {
+                try context.execute(deleteRequest)
+            } catch {
+                print(error)
+            }
         }
+
     }
 }
 

@@ -19,16 +19,16 @@ class GamesRepositoryImpl: GamesRepository {
     }
     
     func fetchGames() async throws -> [Game] {
-        if let localGames = try localDatasource.fetchGames() {
-            print("fetched local games")
-            return localGames
-        } else {
+//        if let localGames = try localDatasource.fetchGames() {
+//            print("fetched local games")
+//            return localGames
+//        } else {
             let games = try await remoteDatasource.fetchGames()
-            try localDatasource.clearGames()
-            try localDatasource.saveGames(games: games)
+            localDatasource.clearGames()
+            localDatasource.saveGames(games: games)
             print("fetched remote games")
             return games
-        }
+//        }
 
     }
     

@@ -43,3 +43,9 @@ extension GameEntity {
         return game
     }
 }
+
+extension GameEntity {
+    @nonobjc public class func fetchRequest() -> NSFetchRequest<GameEntity> {
+        return NSFetchRequest<GameEntity>(entityName: "GameEntity")
+    }
+}
